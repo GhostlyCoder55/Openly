@@ -79,7 +79,7 @@ test("category and about controls work", async ({ page }) => {
   await expect(page).toHaveURL(/\/categories\/images$/);
   await expect(page.getByRole("heading", { level: 1, name: "Images" })).toBeVisible();
   await page.getByRole("link", { name: "About" }).click();
-  await expect(page.getByRole("heading", { level: 1, name: "About Openly" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "How to use it" })).toBeVisible();
 });
 
 test("the catalog does not call external services while searching", async ({ page }) => {

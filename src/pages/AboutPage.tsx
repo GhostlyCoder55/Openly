@@ -14,8 +14,7 @@ export function AboutPage() {
         width={144}
         height={144}
       />
-      <h1 className="mt-6 text-center text-4xl font-semibold">About Openly</h1>
-      <p className="mt-4 text-lg">
+      <p className="mt-6 text-lg">
         Openly is a privacy-first field guide to file formats. It answers what a file is for, which applications can open it, and what limits or safety notes are worth knowing.
       </p>
 

@@ -24,11 +24,8 @@ export function IdentifyPanel() {
   return (
     <section id="identify" aria-labelledby="identify-title" className="rounded-2xl border border-line bg-surface p-5">
       <h2 id="identify-title" className="text-xl font-semibold">
-        Have a file? Identify its format on your device. Your file stays local.
+        What's the File?
       </h2>
-      <p className="mt-2 text-muted">
-        This step is optional. Openly reads the filename and at most the first 33,000 bytes in your browser, then drops them. It does not upload the file, keep a copy, or open it in another application.
-      </p>
       <div
         className={`mt-4 rounded-xl border border-dashed p-5 ${dragging ? "border-accent bg-raised" : "border-line"}`}
         onDragOver={(event) => {

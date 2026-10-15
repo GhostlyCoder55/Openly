@@ -23,7 +23,7 @@ const examples = [".heic", ".blend", ".epub", ".pak", ".cr3"];
 export function HomePage() {
   usePageMeta(
     "What opens this file? — Openly",
-    "Discover what a file format does, which apps can open it, and what to know before you do.",
+    "Search a file format and see which apps can open it.",
   );
   const featured = featuredIds.flatMap((id) => {
     const format = formats.find((item) => item.id === id);
@@ -36,9 +36,6 @@ export function HomePage() {
         <h1 id="hero-title" className="text-4xl font-semibold tracking-tight sm:text-5xl">
           What opens this file?
         </h1>
-        <p className="mx-auto mt-4 max-w-2xl text-balance text-lg text-muted">
-          Discover what a file format does, which apps can open it, and what to know before you do.
-        </p>
         <div className="mt-6 text-left">
           <SearchField autoFocus />
         </div>
