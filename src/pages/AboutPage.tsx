@@ -6,15 +6,15 @@ export function AboutPage() {
     "What Openly is, where the catalog comes from, how privacy works, and what the app does not do.",
   );
   return (
-    <article className="max-w-3xl">
+    <article className="mx-auto max-w-3xl">
       <img
-        src="/brand/openly-logo.jpg"
-        alt="Openly logo: a mint document and magnifying glass on a dark green tile, with the word openly."
-        className="h-40 w-auto rounded-2xl bg-black"
-        width="320"
-        height="360"
+        src="/brand/openly-icon.png"
+        alt="Openly"
+        className="mx-auto block h-36 w-36"
+        width={144}
+        height={144}
       />
-      <h1 className="mt-6 text-4xl font-semibold">About Openly</h1>
+      <h1 className="mt-6 text-center text-4xl font-semibold">About Openly</h1>
       <p className="mt-4 text-lg">
         Openly is a privacy-first field guide to file formats. It answers what a file is for, which applications can open it, and what limits or safety notes are worth knowing.
       </p>
